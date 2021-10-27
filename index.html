@@ -1,0 +1,44 @@
+  <!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Login Form</title>
+    <link rel="stylesheet" href="./index.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Playfair+Display:wght@500&display=swap" rel="stylesheet">
+
+<link rel="stylesheet" href="https://pro.fontawesome.com/releases/v5.10.0/css/all.css" integrity="sha384-AYmEC3Yw5cVb3ZcuHtOA93w35dYTsvhLPVnYs9eStHfGJvOvKxVfELGroGkvsg+p" crossorigin="anonymous"/>
+</head>
+<body>
+
+    <div id="mainbox">
+
+        <div class="heading">
+            <h1>Login Here</h1>
+        </div>
+        <form onsubmit="validate()">
+        <div class="textbox">
+            <i class="fas fa-user"></i> &nbsp;
+            <input required type="text" placeholder="Username" id="name" name="" >
+        </div>
+        <div class="textbox">
+            <i class="fas fa-unlock-alt"></i> &nbsp;
+            <input required type="password" id="pwd" placeholder="Password" name="">
+        </div>
+
+        <div class="btn">
+            <button type="submit">Log In</button>
+        </div>
+        <br>
+        <div class="text">
+        <p style="text-align: center;">Username:Sanohit || Password:Me@123</p>
+    </div>
+    </form>
+        
+    </div>
+    <script src="./login.js"></script>
+</body>
+</html>

@@ -1,0 +1,76 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+    <title>Sanohit Madaan</title>
+    <style>
+        a {
+            text-decoration: none;
+            color: black;
+            display: flex;
+            justify-content: center;
+            font-weight: bolder;
+        }
+
+        .anchor:hover {
+            text-decoration: none;
+            color: black;
+        }
+    </style>
+</head>
+
+<body style="background-color: lightblue">
+
+    <form action="" target="_blank" method="GET">
+
+        <h1
+            style="text-align: center; color: brown; font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif; font-family:cursive;">
+            Contact form</h1>
+        <a class="anchor" href="./index.html">Home Page &nbsp;&nbsp;<img
+                style="width: 20px; background-color: transparent;"
+                src="https://spng.pngfind.com/pngs/s/38-385503_cg-home-icon-svg-png-free-download-home.png"></a>
+
+        <p>Name: <input type="text" name="name" required></p>
+
+        <fieldset>
+
+            <legend style="color: brown;">Gender</legend>
+
+            <p>Male <input type="radio" name="Gender" id="Gender"></p>
+
+            <p>Female <input type="radio" name="Gender" id="Gender"></p>
+
+        </fieldset>
+
+        <p>Address: <textarea name="address" id="address" cols="30" rows="3" required></textarea></p>
+
+        <p>Email: <input type="email" name="email" id="email" required></p>
+
+        <p>Pincode:<input type="Number" name="Pincode" id="Pincode"> </p>
+
+
+
+        </p>
+
+        <fieldset>
+            <legend style="font-family:Georgia, 'Times New Roman', Times, serif, sans-serif;color:brown;"><i>Private
+                    Information</i></legend>
+            <p>Adhaar Number :<input type="password" id="Card no" name="Card no" required></p>
+            <p>Date of Birth: <input type="Date" name="exp" id="exp" required></p>
+            <p>Enter a phone number:<input type="tel" id="phone" name="phone" placeholder="123-45-678"
+                    pattern="[0-9]{3}-[0-9]{2}-[0-9]{3}" required></p>
+
+        </fieldset>
+
+        <p>Query: <input type="text" name="query" id="query" placeholder="Your message" required></p>
+
+        <br>
+        <p style="font-family: cursive;">Thanks for filling the Contact form.Press the below button to submit your form.
+        </p>
+        <br>
+
+        <input type="submit" value="Submit" style="background-color:brown;">
+    </form>
+</body>
+
+</html>
